@@ -1,4 +1,4 @@
-<!DOCTYPE html >
+<!DOCTYPE html>
 
 <html>
 
@@ -17,12 +17,14 @@
 <body class="body_mod">
 <table width="960" border="1" align="center" class="main_tbl">
   <tr>
-    <td class="header" width="900">
-      <img src="images/ziarna.png">
+    <td colspan="2" height="200">
+      <figure>
+        <img src="images/ziarna.png">
+      </figure>
     </td>
   </tr>
   <tr>
-    <td width="200" height="400" valign="top">
+    <td width="200" height="200" valign="top">
 	<table cellspacing="0"  width="200" border="1" class="panel_tbl" >
     <tr>
       <td class="panel_tbl_single">
@@ -41,12 +43,12 @@
     </tr>
     <tr>
       <td  class="panel_tbl_single">
-        <button class="btn">????</button>
+        <button class="btn">Kawowy Kalkulator</button>
       </td>
     </tr>
     <tr>
       <td class="panel_tbl_single">
-        <button class="btn">Z czym to się pije...</button>
+        <button class="btn">Z czym to się pije... czyli kawowe ABC</button>
       </td>
     </tr>
     <tr>
@@ -61,10 +63,22 @@
 		<td>
 
 <p>
-<p>Lorem Ipsum</p>
-<p>Dolor Sim anet</p>
-<p>Quo Vadis Domine</p>
+  <h1>Zamówienie kawy</h1>
+  <h3>Gatunki kawy (Kawa ziarnista)</h3>
+  <form action="odbieram.php" method="post">
+    Arabica (14.69 PLN/100g)
+    <input type="text" name="arabica" />
+    <br/> <br/>
+    Robusta (11.70 PLN/100g)
+    <input type="text" name="robusta" />
+    <br/> <br/>
+    Mieszane 50/50 (13.20 PLN/100g)
+    <input type="text" name="mieszane" />
+    <br/> <br/>
+    <input type="submit" value="zamawiam" class="btn_form"/>
+    </form>
 </p>
+
 		</td>
   </tr>
   <tr>
