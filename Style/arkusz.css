@@ -49,7 +49,7 @@ img{
 .btn{
     background-image: linear-gradient(-90deg, #fff4e6 0%, #9c6a69  40%, #422221  100%);
     padding: 25px;
-    width: 190px;
+    width: 145px;
     text-align: left;
     transition: 0.5s;
     background-size: 200% auto;
@@ -107,4 +107,8 @@ img{
 .input_elem{
     border-radius: 5px;
     background-color: #ebe1d7;
+}
+
+.receive_frame{
+    border: 2px 
 }
