@@ -110,5 +110,31 @@ img{
 }
 
 .receive_frame{
-    border: 2px 
+    margin-left: 10px;
+    border: 0px;
+    border-style: hidden;
+    border-bottom: #9c6a69;
+}
+
+.receive_frame_cell{
+    display: block;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-right: 10px;
+}
+
+.types_align{
+    text-align: center;
+}
+
+.types_tbl{
+    border: 2px #3c2f2f;
+    border-collapse: collapse;
+    border-style: hidden;
+}
+
+.text_style{
+    display: block;
+    padding: 50px;
+    padding-top: 5px;
 }

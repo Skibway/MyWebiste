@@ -19,7 +19,7 @@
   <tr>
     <td colspan="2" height="200">
       <figure>
-        <img src="images/ziarna.png">
+        <img src="images/Coffee_seeds.png">
       </figure>
     </td>
   </tr>
@@ -33,7 +33,7 @@
     </tr>
     <tr>
       <td class="panel_tbl_single">
-        <a type="submit" class="btn" href="index.php?id=2">Rodzaje kawy</a>
+        <a type="submit" class="btn" href="index.php?id=2">Poziom zmielenia kawy</a>
       </td>
     </tr>
     <tr>
@@ -43,7 +43,7 @@
     </tr>
     <tr>
       <td  class="panel_tbl_single">
-        <a class="btn" href="index.php?id=4">Kawowy Kalkulator</a>
+        <a class="btn" href="index.php?id=4">Kawa macerowana</a>
       </td>
     </tr>
    
@@ -58,7 +58,7 @@
     if($_GET["id"]==1) include("main.php");
     if($_GET["id"]==2) include("coffee_types.php");
     if($_GET["id"]==3) include("order.php");
-    if($_GET["id"]==4) include("coffee_calc.php");
+    if($_GET["id"]==4) include("coldbrew_coffee.php");
     if($_GET["id"]==5) include("receive.php");
 ?>
 </p>
