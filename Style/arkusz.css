@@ -111,9 +111,9 @@ img{
 
 .receive_frame{
     margin-left: 10px;
-    border: 0px;
-    border-style: hidden;
-    border-bottom: #9c6a69;
+    border: 0px  #9c6a69;
+    border-style: initial;
+    border-collapse: separate;
 }
 
 .receive_frame_cell{
